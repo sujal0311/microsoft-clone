@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.slider-container {
+    position: relative;
+    overflow: hidden;
+}
+.slider {
+    display: flex;
+    transition: transform 0.5s;
+}
+.slide {
+    flex: 0 0 100%;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.dot.active {
+    background: #007BFF;
+}
+/* style.css */
+.searchbar {
+    /* Your existing styles */
+}
+
+.hidden {
+    display: none;
+}
+.old-hr {
+    border: none; /* Remove the default line */
+    height: 0.5px; /* Set the height of the rule line */
+    background-color: #999; 
+    margin: 0px 2px; /* Add some margin for spacing */
+  }
+  
